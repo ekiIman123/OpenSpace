@@ -1,7 +1,4 @@
-/**
- * @TODO: Define the reducer for the authUser state
- */
-import { ActionType } from "./action";
+import { ActionType } from './action';
 
 function authUserReducer(authUser = null, action = {}) {
   switch (action.type) {

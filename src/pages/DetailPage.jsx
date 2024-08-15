@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import TalkDetail from "../components/TalkDetail";
-import TalkItem from "../components/TalkItem";
-import TalkReplyInput from "../components/TalkReplyInput";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import TalkDetail from '../components/TalkDetail';
+import TalkItem from '../components/TalkItem';
+import TalkReplyInput from '../components/TalkReplyInput';
 import {
   asyncReceiveTalkDetail,
   asyncToogleLikeTalkDetail,
-} from "../states/talkDetail/action";
-import { asyncAddTalk } from "../states/talks/action";
+} from '../states/talkDetail/action';
+import { asyncAddTalk } from '../states/talks/action';
 
 function DetailPage() {
   const { id } = useParams();

@@ -1,6 +1,6 @@
-import api from "../../utils/api";
-import { receiveUsersActionCreator } from "../users/action";
-import { receiveTalksActionCreator } from "../talks/action";
+import api from '../../utils/api';
+import { receiveUsersActionCreator } from '../users/action';
+import { receiveTalksActionCreator } from '../talks/action';
 
 function asyncPopulateUsersAndTalks() {
   return async (dispatch) => {

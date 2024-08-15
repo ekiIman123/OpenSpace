@@ -1,8 +1,4 @@
-/**
- * @TODO: Define reducer for the isPreLoad state
- */
-
-import { ActionType } from "./action";
+import { ActionType } from './action';
 
 function isPreloadReducer(isPreLoad = true, action = {}) {
   switch (ActionType) {

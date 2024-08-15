@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import TalkInput from "../components/TalkInput";
-import TalksList from "../components/TalksList";
-import { useDispatch, useSelector } from "react-redux";
-import { asyncPopulateUsersAndTalks } from "../states/shared/action";
-import { asyncAddTalk, asyncToggleLikeTalk } from "../states/talks/action";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import TalkInput from '../components/TalkInput';
+import TalksList from '../components/TalksList';
+import { asyncPopulateUsersAndTalks } from '../states/shared/action';
+import { asyncAddTalk, asyncToggleLikeTalk } from '../states/talks/action';
 
 function HomePage() {
   const authUser = useSelector((state) => state.authUser);
