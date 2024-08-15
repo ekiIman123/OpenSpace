@@ -9,7 +9,6 @@ import './styles/style.css';
 
 const root = createRoot(document.getElementById('root'));
 
-// TODO: wrap App with store provider
 root.render(
   <Provider store={store}>
     <BrowserRouter>
