@@ -49,7 +49,7 @@ function TalkItem({
             <div className="talk-item__likes">
               <p>
                 <button type="button" aria-label="like" onClick={onLikeClick}>
-                  { isTalkLiked ? <FaHeart style={{ color: 'red' }} /> : <FaRegHeart />}
+                  {isTalkLiked ? <FaHeart style={{ color: 'red' }} /> : <FaRegHeart />}
                 </button>
                 {' '}
                 {likes.length}

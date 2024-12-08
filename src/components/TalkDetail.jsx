@@ -26,7 +26,7 @@ function TalkDetail({
       <footer>
         <div className="talk-detail__like">
           <button type="button" aria-label="like" onClick={() => likeTalk(id)}>
-            { isTalkLiked ? <FaHeart style={{ color: 'red' }} /> : <FaRegHeart />}
+            {isTalkLiked ? <FaHeart style={{ color: 'red' }} /> : <FaRegHeart />}
           </button>
           <span>
             {likes.length}
